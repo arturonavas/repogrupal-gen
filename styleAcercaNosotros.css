@@ -12,6 +12,17 @@ header {
     padding: 20px;
 }
 
+.logo-container {
+    margin-right: 20px; 
+}
+
+.logo-container img {
+    height: 70px; 
+    width: auto; 
+}
+
+
+
 header h1 {
     margin: 0;
     text-align: center;
@@ -35,6 +46,7 @@ article img {
     display: block;
     margin: 0 auto;
     border-radius: 8px;
+    
 }
 
 article h3 {
