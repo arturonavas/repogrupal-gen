@@ -1,0 +1,78 @@
+/* Estilos generales */
+body {
+    font-family: 'Sedan', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #2271b3;
+    color: #ffffff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+header nav {
+    text-align: right;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+article {
+    padding: 20px;
+}
+
+article img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+article h3 {
+    color: #2271b3;
+    margin-top: 20px;
+    text-align: center;
+}
+
+article p {
+    text-align: justify;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Clearfix */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+article h4 {
+    color: #2271b3;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #2271b3;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
