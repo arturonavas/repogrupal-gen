@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+   
+    background-color: #fff;
+    margin: 10px ;
+    padding: 25px;
+    max-width: 99%;
+    max-height: max-content;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.87);
+    margin-top: 15px;
+    border-radius: 25px;
+    
+}
+header{
+    background-color: #2271b3;
+    padding: 12px;
+    border-radius: 12px;
+    
+}
+header h1 {
+    font-family: 'sedan'; 
+    text-align: center;
+    padding: 5px;
+}
+header nav {
+    text-align: right;
+}
+ 
+header nav a {
+    color: #3b3939;
+    text-decoration: none;
+    margin-left: 10px;
+}
+article figure{
+   text-align: center;
+}
+article figure img {  
+   margin: 10px;
+   border-radius: 12px;
+   width: 700px; 
+   height: 500px;  
+}
+article div p{
+    text-align: justify;
+}
+
