@@ -76,6 +76,17 @@ button:hover {
     background-color: #0f4c75;
 }
 
+.banner img {
+    max-width: 10%; 
+    height: 10%; 
+    display: flex; 
+    margin: 0 auto; 
+}
+
+p {
+text-align: center;
+
+}
 
 
 footer {
