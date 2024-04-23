@@ -7,33 +7,86 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
     <title>Centro Comunitario</title>
+    <link rel="stylesheet" href="/stylePreguntasFrecuentes.css">
 </head>
 <body>
     <header>
-      <h1 style="font-family: 'sedan'; text-align: center;">Centro de servicios culturales y talleres locales de la Aldea Ruyi </h1>
-        <div style="text-align: right;">
-         <a href="index.html"> HOME </a> | <a href="landing.html"> landing </a> |
-         <a href="Aceca-de-nosotros.html"> Acerca de nosotros </a> | <a href="Preguntas-Frecuentes.html"> Preguntas Frecuentes </a> 
-      </div>
-      <h2 > Preguntas Frecuentes </h2>
-    </header>
+        <h1>Centro de servicios culturales y talleres locales de la Aldea Ruyi</h1>
+        <nav>
+          <a href="index.html">HOME</a> |
+          <a href="Acerca-de-nosotros.html">Acerca de nosotros</a> |
+          <a href="Preguntas-Frecuentes.html">Preguntas Frecuentes</a> 
+        </nav>
+      </header>
     <article>
+        <h2>Preguntas frecuentes</h2>
         <div style="text-align: center;">
         <figure>
-            <img src="https://images.adsttc.com/media/images/6225/c2a0/3e4b/31eb/4200/0001/slideshow/fe.jpg?1646641817" width="700px" height="500px"  alt="Centro">
+            <img src="https://www.digibox.com.mx/wp-content/uploads/2017/01/digibox-facturacion-electronica-banner-Preguntas.jpg" alt="Centro">
         </figure>
         </div>
         <div>
-            <p style="text-align: justify;">
+            <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, fugit non nihil quo optio, reiciendis pariatur cum impedit, quia ut ea asperiores eveniet sit corrupti. Sed exercitationem distinctio ut voluptate.
               Inventore iusto consequatur non atque ab, necessitatibus, rerum iste excepturi maiores quo vero recusandae quibusdam pariatur assumenda corporis laborum cumque dicta est. Sint quae debitis tempore a consequuntur fugiat dolorem?
               Iusto totam laudantium vitae rerum perferendis veniam voluptate autem ratione! Impedit, earum dolor perspiciatis sed magni facere officia doloribus maxime tempora voluptas vitae neque excepturi expedita eius cupiditate! Exercitationem, cupiditate.
-
             </p>
+            <h2>Preguntas de nuestros usuarios</h2>
+            <details>
+                <summary>Pregunta?</summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita quas incidunt laborum delectus, id saepe repellendus blanditiis officia distinctio ipsum magni? Voluptatibus accusantium fugiat minima delectus nihil alias ullam?</p>
+            </details>
+            <details>
+                <summary>Pregunta?</summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita quas incidunt laborum delectus, id saepe repellendus blanditiis officia distinctio ipsum magni? Voluptatibus accusantium fugiat minima delectus nihil alias ullam?</p>
+            </details>
+            <details>
+                <summary>Pregunta?</summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita quas incidunt laborum delectus, id saepe repellendus blanditiis officia distinctio ipsum magni? Voluptatibus accusantium fugiat minima delectus nihil alias ullam?</p>
+            </details>
+            <details>
+                <summary>Pregunta?</summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita quas incidunt laborum delectus, id saepe repellendus blanditiis officia distinctio ipsum magni? Voluptatibus accusantium fugiat minima delectus nihil alias ullam?</p>
+            </details>
+            <details>
+                <summary>Pregunta?</summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita quas incidunt laborum delectus, id saepe repellendus blanditiis officia distinctio ipsum magni? Voluptatibus accusantium fugiat minima delectus nihil alias ullam?</p>
+            </details>
+
+            <h2>Tienes alguna pregunta? hazla aqui</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi esse deleniti asperiores quas porro odio? Ipsa est laborum, magni aut consequatur doloremque assumenda, ab, facere eius tempore fugit ex impedit?</p>           
         </div>
     </article>
+    <form class="form-container">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <div class="form-group">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido">
+        </div>
+        <div class="form-group">
+            <label for="pregunta">Pregunta:</label>
+            <textarea id="pregunta" name="pregunta" rows="4"></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
     <footer>
         <p>© 2024 Centro Comunitario Local</p>
     </footer>
 </body>
 </html>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var detailsElements = document.querySelectorAll('details');
+
+        detailsElements.forEach(function(details) {
+            details.addEventListener('toggle', function() {
+                if (details.open) {
+                    details.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    });
+</script>
