@@ -60,3 +60,12 @@ article div p{
     text-align: justify;
 }
 
+footer {
+    background-color: #2271b3;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
